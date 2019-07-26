@@ -1,16 +1,15 @@
-# Simple GO Lang REST API
+# Books REST API [GO]
 
-> Simple RESTful API to create, read, update and delete books. No database implementation yet
+> Under light developenet
+
+A minimal RESTful API to create, read, update and delete books. No database implementation yet
+Looking forward to be a full go rest api with Mongo databse intergration.
 
 ## Quick Start
 
-
-``` bash
+```bash
 # Install mux router
 go get -u github.com/gorilla/mux
-```
-
-``` bash
 go build
 ./go_restapi
 ```
@@ -18,21 +17,26 @@ go build
 ## Endpoints
 
 ### Get All Books
-``` bash
+
+```
 GET api/books
 ```
+
 ### Get Single Book
-``` bash
+
+```
 GET api/books/{id}
 ```
 
 ### Delete Book
-``` bash
+
+```
 DELETE api/books/{id}
 ```
 
 ### Create Book
-``` bash
+
+```bash
 POST api/books
 
 # Request sample
@@ -44,7 +48,8 @@ POST api/books
 ```
 
 ### Update Book
-``` bash
+
+```bash
 PUT api/books/{id}
 
 # Request sample
@@ -56,20 +61,14 @@ PUT api/books/{id}
 
 ```
 
+## Author
 
-```
+Alpha Olomi [hello@alphaolomi.com](mailto:hello@alphaolomi.com)
 
-## App Info
+## Version
 
-### Author
+0.0.2
 
-Brad Traversy
-[Traversy Media](http://www.traversymedia.com)
-
-### Version
-
-1.0.0
-
-### License
+## License
 
 This project is licensed under the MIT License
